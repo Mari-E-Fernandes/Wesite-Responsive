@@ -92,12 +92,31 @@
     border-radius: 4px;
     background: #14505c;
     color: #fff;
+    position: relative;
 }
 
 .button:hover{
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
+    color: #fff;
 }
+
+.button:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    transition: all 0.35s ease;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.button:hover:after{
+    width: 100%;
+} 
 
 .navbar__links:hover{
     color: #f77062;
@@ -284,18 +303,18 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #4837ff;
+    background-image: linear-gradient(to top,#21d4fd  0%, #b721ff 100%);
     transition: all 0.35s;
     border-radius: 4px;
 }
 
-.main__btn:hover{
+/* .main__btn:hover{
     color: #fff;
-}
+} */
 
 .main__btn:hover:after{
     width: 100%;
-}
+} 
 
 .main__img--container{
     text-align: center;
