@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    background: #131313;
+    background: #162527;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -90,12 +90,12 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #f77062;
+    background: #14505c;
     color: #fff;
 }
 
 .button:hover{
-    background: #4837ff;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     transition: all 0.3s ease;
 }
 
@@ -202,7 +202,7 @@
 /* ========== Hero Section ==========*/
 
 .main{
-    background-color: #141414;
+    background: #162527;
 }
 
 .main__container{
@@ -212,7 +212,7 @@
     justify-content: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #131313;;
+    background-color: #162527;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -258,7 +258,7 @@
 
 .main__btn{
     font-size: 1rem;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
@@ -297,7 +297,7 @@
     width: 100%;
 }
 
-.main__img--conteiner{
+.main__img--container{
     text-align: center;
 }
 
@@ -361,7 +361,7 @@
 
 /*========== Services Section CSS ===========*/
 .services{
-    background: #131313;
+    background: #162527;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -406,7 +406,7 @@
         rgba(0,0,0,0) 0%,
         rgba(17,17,17,0.6) 100%
     ), 
-    url('/img/pic3.jpg');
+    url('/img/discover1.jpg');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -422,7 +422,7 @@
         rgba(0,0,0,0) 0%,
         rgba(17,17,17,0.6) 100%
     ), 
-    url('/img/pic4.jpg');
+    url('/img/discover3.jpg');
 }
 
 .services h2 {
@@ -491,7 +491,7 @@
 /* ========== Footer CSS ===========*/
 
 .footer__container {
-    background-color: #141414;
+    background-color: #162527;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
