@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    background: #162527;
+    background: #051923;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -92,31 +92,12 @@
     border-radius: 4px;
     background: #14505c;
     color: #fff;
-    position: relative;
 }
 
 .button:hover{
-    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
-    transition: all 0.4s ease;
-    color: #fff;
+    background: #4837ff;
+    transition: all 0.3s ease;
 }
-
-.button:after{
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    border: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
-    transition: all 0.35s ease;
-    border-radius: 4px;
-    color: #fff;
-}
-
-.button:hover:after{
-    width: 100%;
-} 
 
 .navbar__links:hover{
     color: #f77062;
@@ -221,7 +202,7 @@
 /* ========== Hero Section ==========*/
 
 .main{
-    background: #162527;
+    background: #051923;
 }
 
 .main__container{
@@ -231,7 +212,7 @@
     justify-content: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #162527;
+    background-color: #051923;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -380,7 +361,7 @@
 
 /*========== Services Section CSS ===========*/
 .services{
-    background: #162527;
+    background: #051923;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -510,7 +491,7 @@
 /* ========== Footer CSS ===========*/
 
 .footer__container {
-    background-color: #162527;
+    background-color: #051923;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
