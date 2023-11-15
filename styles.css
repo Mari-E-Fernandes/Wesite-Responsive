@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    background: #5AA9E6;
+    background: #08A045;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -31,8 +31,8 @@
 }
 
 #navbar__logo{
-    background-color: #FF6392;
-    background-image: linear-gradient(to top, #FF6392 0%, #FFE45E 100%);
+    background-color: #073B3A;
+    background-image: linear-gradient(to bottom, #ff8408 30%,#DDB771 80%,#6BBF59 100%);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -43,7 +43,8 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 4rem;
+    padding-top: 1rem;
 }
 
 .fa-gem{
@@ -95,12 +96,12 @@
 }
 
 .button:hover{
-    background: linear-gradient(to left, rgba(255,228,94,85%) 0%, #ff6392 50%, #fb3772 100);
+    background: #0D3B66;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover{
-    color: #f77062;
+    color: #0D3B66;
     transition: all 0.3s ease;
 }
 
@@ -202,7 +203,7 @@
 /* ========== Hero Section ==========*/
 
 .main{
-    background: #5AA9E6;
+    background: #08A045;
 }
 
 .main__container{
@@ -212,7 +213,7 @@
     justify-content: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #5AA9E6;
+    background-color: #08A045;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -227,8 +228,8 @@
 
 .main__content h1{
     font-size: 4rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #FF6392 0%, #FFE45E 100%);
+    background-color: #ff8408;
+    background-image: linear-gradient(to top, #ff8408 0%, #DDB771 70%, #08A045 100%);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -240,8 +241,8 @@
 .main__content h2{
     font-size: 4rem;
     margin-top: 10px;
-    background-color: #ff8177;
-    background-image: linear-gradient(20deg, #FF6392 0%, #FFE45E 100%);
+    background-color: #ff8408;
+    background-image: linear-gradient(20deg, #ff8408 0%, #DDB771 70%, #08A045 100%);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -258,7 +259,7 @@
 
 .main__btn{
     font-size: 1rem;
-    background-image: linear-gradient(to left, #5AA9E6 0%, #ff6392 70%, #fb3772 100%);
+    background-image: linear-gradient(to left, #08A045 0%, #ff6392 70%, #fb3772 100%);
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
@@ -361,7 +362,7 @@
 
 /*========== Services Section CSS ===========*/
 .services{
-    background: #5AA9E6;
+    background: #08A045;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -491,7 +492,7 @@
 /* ========== Footer CSS ===========*/
 
 .footer__container {
-    background-color: #5AA9E6;
+    background-color: #08A045;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
