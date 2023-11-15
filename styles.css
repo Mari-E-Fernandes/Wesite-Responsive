@@ -371,13 +371,14 @@
 .services h1 {
     background-color: #ff8177;
     background-image: linear-gradient(
-        to right, 
-        #ff8177 0%, 
-        #ff867a 0%, 
-        #ff8c7f 21%, 
-        #f99185 52%,
-        #cf556c 78%,
-        #b12a5b 100%
+        60deg, 
+        #073B3A 0%, 
+       /* #0B6E4F 25%, 
+        #6BBF59 21%, 
+        #DDB771 52%,
+        #705D56 0%,*/
+        #D64045 50%,
+        #073B3A 100%
     );
     background-size: 100%;
     background-clip: text;
@@ -401,11 +402,11 @@
     width: 400px;
     border-radius: 4px;
     background-image: linear-gradient(
-        to bottom, 
+        to bottom,
         rgba(0,0,0,0) 0%,
         rgba(17,17,17,0.6) 100%
     ), 
-    url('/img/discover1.jpg');
+    url('/img/salad-seedling-4134906_1280.jpg');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -421,7 +422,7 @@
         rgba(0,0,0,0) 0%,
         rgba(17,17,17,0.6) 100%
     ), 
-    url('/img/discover3.jpg');
+    url('/img/discover2_real-spinach-73911_1280.jpg');
 }
 
 .services h2 {
@@ -442,7 +443,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #f77062;
+    background: #D64045;
     position: absolute;
     top: 440px;
     left: 30px;
